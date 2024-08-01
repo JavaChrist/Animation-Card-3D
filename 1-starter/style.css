@@ -12,7 +12,7 @@ body {
 }
 
 .tilted-section {
-  padding: 140px 24px 40px;
+  padding: 180px 24px 40px;
   background-image: radial-gradient(at center, #4d4d4d, #0e0e0e);
   height: 700px;
   perspective: 2000px;
@@ -38,12 +38,12 @@ body {
   border-radius: 25px;
 }
 
-/* .tilted-section__card-button {
+.tilted-section__card-button {
   pointer-events: auto;
   position: absolute;
   top: 50%;
   left: 43%;
-  text-transform: (-50%, -50%);
+  transform: translet(-50%, -50%);
   min-width: 175px;
   padding: 12px;
   font-size: 20px;
@@ -59,4 +59,4 @@ body {
 .tilted-section__card-button:hover {
   background-color: #111;
   color: #f1f1f1;
-} */
+}
